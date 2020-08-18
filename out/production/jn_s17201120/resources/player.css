@@ -1,0 +1,126 @@
+.player-musicList {
+    -fx-min-width: 380;
+    -fx-pref-width: 380;
+    -fx-max-width: 380;
+    /*-fx-opacity: 0.8;*/
+	-fx-background-color: rgba(128, 128, 128, 0.3);
+}
+
+.player-lyric {
+	-fx-min-width: 650;
+    -fx-pref-width: 650;
+    -fx-max-width: 650;
+    -fx-min-height: 500;
+    -fx-pref-height: 500;
+    -fx-max-height: 500;
+	/*-fx-background-color: rgba(128, 128, 128, 0.08);*/
+    /* 
+    -fx-border-color: rgba(0, 0, 0, 1);
+    -fx-border-width: 3;
+    */
+}
+
+.player-topTitle {
+	/*-fx-background-color: rgba(255, 0, 0, 0.8);*/
+    -fx-border-width: 0;
+	-fx-min-height: 50;
+	-fx-pref-height: 50;
+	-fx-max-height: 50;
+	-fx-background-color: rgba(128, 128, 128, 0.3);
+}
+
+.player-logo {
+	-fx-padding: 15 15 15 15;
+	-fx-font-size: 18px;
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+	/*-fx-effect: dropshadow( three-pass-box, rgba(255, 255, 255, 0.5), 10, 0.5, 0, 0 );*/
+}
+
+.player-search {
+	-fx-padding: 15 0 15 0;
+	/*-fx-font-size: 18px;*/
+	/*-fx-font-weight: bold;*/
+	-fx-text-fill: white;
+}
+
+
+.player-top-close {
+	-fx-padding: 5 15 5 0;
+}
+
+.player-top-min, .ffplayer-top-max {
+	-fx-padding: 5 5 5 0;
+}
+
+.player-bottom {
+    -fx-min-height: 65;
+    -fx-pref-height: 65;
+    -fx-max-height: 65;
+    -fx-background-color: rgba(128, 128, 128, 0.3);
+}
+
+.player-play {
+	-fx-padding: 5 0 0 0;
+}
+
+.player-next, .player-pre {
+	-fx-padding: 10 5 5 5;
+}
+
+.player-title-label {
+	-fx-padding: 5 5 5 30;
+	-fx-font-size: 18px;
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+	-fx-effect: dropshadow( three-pass-box, rgba(255, 255, 255, 0.5), 10, 0.5, 0, 0 );
+}
+
+.player-time-slider{
+	-fx-padding: 5 5 5 30;
+	-fx-min-width: 500;
+    -fx-pref-width: 500;
+    -fx-max-width: 500;
+    -fx-cursor: hand;
+}
+
+.player-time-label {
+	-fx-padding: 5;
+	-fx-font-size: 12px;
+	-fx-text-fill: white;
+	-fx-font-family: 'Clear Sans Bold';
+}
+
+.player-playModel-vbox {
+    -fx-padding: 15 0 0 10;
+}
+
+.player-playModel-choiceBox {
+	-fx-padding: 0 5 5 20;
+	-fx-cursor: hand;
+}
+
+.player-volume-label {
+    -fx-padding: 20 5 5 20;
+    -fx-text-fill: white;
+    -fx-font-family: 'Clear Sans Bold';
+}
+
+.player-volume-slider {
+	-fx-min-width: 100;
+    -fx-pref-width: 100;
+    -fx-max-width: 100;
+    -fx-padding: 20 5 5 5;
+    -fx-cursor: hand;
+}
+
+
+/**********************通用************************/
+.player-button {
+	-fx-cursor: hand;
+}
+
+.player-button:focused, .ffplayer-button:hover {
+	-fx-blend-mode: hard-light;
+	-fx-effect: dropshadow( three-pass-box, rgba(255, 255, 255, 0.5), 10, 0.5, 0, 0 );
+}

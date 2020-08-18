@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="fst-1.58">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/fst-1.58.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
