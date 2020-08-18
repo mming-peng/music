@@ -1,16 +1,13 @@
-package com.s17201120.player;
+package com.s17201120.player.control;
 
+import com.s17201120.player.model.CacheUtils;
+import com.s17201120.player.model.Player;
+import com.s17201120.player.util.PathUtils;
+import com.s17201120.player.util.PlayerUtils;
 import com.s17201120.player.view.FuncBottom;
 import com.s17201120.player.view.LyricView;
 import com.s17201120.player.view.MusicList;
 import com.s17201120.player.view.TopTitle;
-import com.s17201120.player.control.FuncBottomEvent;
-import com.s17201120.player.control.MusicEvent;
-import com.s17201120.player.control.MusicListEvent;
-import com.s17201120.player.model.CacheUtils;
-import com.s17201120.player.model.Player;
-import com.s17201120.player.util.PlayerUtils;
-import com.s17201120.player.util.PathUtils;
 import javafx.scene.media.MediaPlayer;
 import javafx.scene.media.MediaPlayer.Status;
 import javafx.stage.Stage;

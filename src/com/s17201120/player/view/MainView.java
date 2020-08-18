@@ -1,6 +1,6 @@
 package com.s17201120.player.view;
 
-import com.s17201120.player.PlayerManager;
+import com.s17201120.player.control.PlayerManager;
 import com.s17201120.player.model.Player;
 import com.s17201120.player.util.ImageUtils;
 import com.s17201120.player.util.PlayerUtils;

@@ -1,6 +1,5 @@
 package com.s17201120.player.control;
 
-import com.s17201120.player.PlayerManager;
 import com.s17201120.player.view.FuncBottom;
 import com.s17201120.player.view.MusicList;
 import com.s17201120.player.model.CacheUtils;
